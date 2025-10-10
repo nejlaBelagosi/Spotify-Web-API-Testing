@@ -3132,6 +3132,11 @@
 		"type": "oauth2",
 		"oauth2": [
 			{
+				"key": "clientId",
+				"value": "{{clientId}}",
+				"type": "string"
+			},
+			{
 				"key": "scope",
 				"value": "user-read-private user-read-email playlist-read-private user-library-read user-library-modify playlist-modify-public playlist-modify-private",
 				"type": "string"
@@ -3177,11 +3182,6 @@
 				"type": "string"
 			},
 			{
-				"key": "clientId",
-				"value": "82f8110c28bd42ed8c8964702e888a3a",
-				"type": "string"
-			},
-			{
 				"key": "authUrl",
 				"value": "https://accounts.spotify.com/authorize",
 				"type": "string"
@@ -3207,7 +3207,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "2205d842-b898-45c8-811f-71387f0002e4",
+				"id": "a3c2bb5b-1cbb-4c97-8c00-b45256ce6451",
 				"type": "text/javascript",
 				"packages": {},
 				"requests": {},
@@ -3219,7 +3219,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "e8a27739-1144-4d5e-921c-9345027ee1c3",
+				"id": "18f2cf23-e16e-4e17-9de0-11cd511b8672",
 				"type": "text/javascript",
 				"packages": {},
 				"requests": {},
