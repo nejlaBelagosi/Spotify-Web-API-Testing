@@ -33,14 +33,14 @@ This testing project validates the behavior of Spotify Web API endpoints to ensu
 - **Environment name:** `Spotify Web API`
 
 **Collection Structure:**
-
+```
 ├── Positive Endpoints/
 │ ├── Playlist/
 │ ├── User Profile/
 │ └── Tracks/
 └── Negative Endpoints/
 └── Playlist/
-
+```
 ---
 
 ## 🔐 Authentication
@@ -55,7 +55,7 @@ Spotify uses **OAuth 2.0** for authentication.
 ---
 
 ### Required Scopes
-
+```
 user-read-private
 user-read-email
 playlist-read-private
@@ -63,7 +63,7 @@ user-library-read
 user-library-modify
 playlist-modify-public
 playlist-modify-private
-
+```
 ---
 
 ## 🛠️ Tools Used
