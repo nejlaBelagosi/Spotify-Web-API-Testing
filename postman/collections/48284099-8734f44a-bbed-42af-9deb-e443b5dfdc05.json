@@ -2030,7 +2030,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"name\": \"\",\r\n    \"description\": \"New playlist description\",\r\n    \"public\": false\r\n}",
+									"raw": "{\r\n    \"description\": \"New playlist description\",\r\n    \"public\": false\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
