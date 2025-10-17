@@ -2343,7 +2343,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"name\": \"No name\",\r\n    \"description\": \"New playlist description\",\r\n    \"public\": \"yees\"\r\n}",
+									"raw": "{\r\n    \"name\": \"No name\",\r\n    \"description\": 1234567,\r\n    \"public\": false\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
